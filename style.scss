@@ -1,0 +1,31 @@
+// variables
+$logocolor: #1a3c49;
+$navcolor: #ecf2f2;
+
+// imports
+@import "./layout/_navigation";
+@import "./layout/carousels";
+@import "./layout/meet_attorney";
+@import "./layout/bg-practice-area-container";
+@import "./layout/bg-news-container";
+@import "./layout/testminoal";
+@import "./layout/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./Asset/fonts/Merriweather-Regular.ttf),
+    url(./Asset/fonts/Merriweather-Light.ttf),
+    url(./Asset/fonts/Merriweather-Bold.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Merriweather", serif;
+}
